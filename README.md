@@ -1,0 +1,5 @@
+-Se realizo un solo Script con el codigo de la practica llamado practica2.py
+-Lo primero que se hace es utilizar la operacion "getOrnanizations" para obtener una lista de las organizaciones de meraki y asi identificar la id de la organizacion con lo que se trabajara que es la de DeLab,obteniendo asi la id:681155
+-Lo segundo que se hace es utilizar la operacion getOrganizationDevicesStatuses para construir un inventario de los equipos wireless y appliance de la organizacion DeLab. Es importante decir, que en esta parte se filtro la informacion porque eran muchos los equipos que aparecian al realizar solo esa operacion. De aqui se extrajo la siguiente informacion: modelo del equipo, nombre, direccion MAC, direccion IP publica y de la LAN, serial y status.
+-En la ultima parte y a partir de la informacion obtenida en la parte anterior se escribe un archivo .csv llamado "inventario.csv".
+-Tambien se hace una validacion de errores de cada solicitud usando el comando "raise for status"
