@@ -1,0 +1,6 @@
+Las librerias de python que se deben instalar para utilizar el script son:
+-La libreria meraki
+-La libreria json
+-La libreria csv
+-La libreria pprint
+-La libreria requests
